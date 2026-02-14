@@ -853,6 +853,31 @@ LANG_STRINGS["ru_install_subscription_installing_docker"]="Установка Do
 LANG_STRINGS["ru_install_subscription_complete"]="Установка завершена!"
 LANG_STRINGS["ru_install_subscription_press_key"]="Нажмите любую клавишу для возврата в меню..."
 
+# Subscription separate server optional config
+LANG_STRINGS["en_install_subscription_optional_config"]="Optional configuration (press Enter to skip any):"
+LANG_STRINGS["en_install_subscription_enter_custom_prefix"]="Enter custom sub prefix (e.g., sub). Leave empty for none:"
+LANG_STRINGS["en_install_subscription_enter_marzban_enabled"]="Enable Marzban legacy link support? (y/n, default n):"
+LANG_STRINGS["en_install_subscription_enter_marzban_secret"]="Enter Marzban legacy secret key:"
+LANG_STRINGS["en_install_subscription_enter_caddy_auth"]="Enter Caddy auth API token (leave empty if not using Caddy security addon):"
+LANG_STRINGS["en_install_subscription_enter_cf_client_id"]="Enter Cloudflare Zero Trust Client ID (leave empty if not using):"
+LANG_STRINGS["en_install_subscription_enter_cf_client_secret"]="Enter Cloudflare Zero Trust Client Secret (leave empty if not using):"
+LANG_STRINGS["en_install_subscription_updating_panel_env"]="Updating SUB_PUBLIC_DOMAIN in panel .env..."
+LANG_STRINGS["en_install_subscription_restarting_panel"]="Restarting Remnawave panel to apply changes..."
+LANG_STRINGS["en_install_subscription_panel_not_found_warn"]="Panel .env not found at /opt/remnawave/.env. Please update SUB_PUBLIC_DOMAIN manually."
+LANG_STRINGS["en_install_subscription_separate_info"]="Installing subscription page on separate server..."
+
+LANG_STRINGS["ru_install_subscription_optional_config"]="Дополнительная конфигурация (нажмите Enter для пропуска):"
+LANG_STRINGS["ru_install_subscription_enter_custom_prefix"]="Введите кастомный префикс (например, sub). Оставьте пустым для пропуска:"
+LANG_STRINGS["ru_install_subscription_enter_marzban_enabled"]="Включить поддержку Marzban legacy ссылок? (y/n, по умолчанию n):"
+LANG_STRINGS["ru_install_subscription_enter_marzban_secret"]="Введите Marzban legacy секретный ключ:"
+LANG_STRINGS["ru_install_subscription_enter_caddy_auth"]="Введите Caddy auth API токен (оставьте пустым, если не используете Caddy security):"
+LANG_STRINGS["ru_install_subscription_enter_cf_client_id"]="Введите Cloudflare Zero Trust Client ID (оставьте пустым, если не используете):"
+LANG_STRINGS["ru_install_subscription_enter_cf_client_secret"]="Введите Cloudflare Zero Trust Client Secret (оставьте пустым, если не используете):"
+LANG_STRINGS["ru_install_subscription_updating_panel_env"]="Обновление SUB_PUBLIC_DOMAIN в .env панели..."
+LANG_STRINGS["ru_install_subscription_restarting_panel"]="Перезапуск панели Remnawave для применения изменений..."
+LANG_STRINGS["ru_install_subscription_panel_not_found_warn"]="Файл .env панели не найден по пути /opt/remnawave/.env. Пожалуйста, обновите SUB_PUBLIC_DOMAIN вручную."
+LANG_STRINGS["ru_install_subscription_separate_info"]="Установка страницы подписок на отдельном сервере..."
+
 # Remnawave-update-full
 LANG_STRINGS["en_update_full_updating"]="Updating all components..."
 LANG_STRINGS["en_update_full_complete"]="All components successfully updated!"
